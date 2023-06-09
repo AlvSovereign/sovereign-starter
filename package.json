@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "dev:web": "yarn workspace web dev",
-    "dev:build": "yarn workspace web build"
+    "dev:build": "yarn workspace web build",
+    "dev:mobile:start": "yarn workspace mobile start"
   },
   "private": true,
   "dependencies": {},
@@ -13,7 +14,7 @@
     "@nx/workspace": "16.3.2"
   },
   "workspaces": [
-    "packages/**",
-    "apps/**"
+    "apps/**",
+    "packages/**"
   ]
 }
